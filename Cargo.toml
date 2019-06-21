@@ -1,0 +1,14 @@
+[package]
+name = "espresso"
+version = "0.1.0"
+authors = ["treetertot <europajuice@gmail.com>"]
+edition = "2018"
+
+[profile.dev]
+opt-level = 2
+
+[dependencies]
+coffee = { version = "0.3", features = ["vulkan"] }
+rand = "0.6.5"
+shapekit = { git = "https://github.com/treetertot/shapekit" }
+rayon = "*"
